@@ -23,7 +23,7 @@ rest.put(Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUIL
     .catch(console.error);
     
 
-//Küresel slash komutları için
+//Global slash komutları için
 /*rest.put(Routes.applicationCommands(process.env.CLIENT_ID), { body: commands })
     .then(() => console.log('Belirtilen slash komutları küresel bir biçimde başarıyla kaydedildi'))
     .catch(console.error);*/

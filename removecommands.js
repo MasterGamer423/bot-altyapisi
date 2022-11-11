@@ -10,7 +10,7 @@ rest.delete(Routes.applicationGuildCommand(process.env.CLIENT_ID, process.env.GU
     .then(() => console.log('Belirtilen sunucuya dayalı komut(lar) başarıyla silindi.'))
     .catch(console.error);
 
-//Küresel slash komutları için
+//Global slash komutları için
 /*rest.delete(Routes.applicationCommand(process.env.CLIENT_ID, '1013884752979312640'))
     .then(() => console.log('Belirtilen Küresel komut başarıyla silindi.'))
     .catch(console.error);*/
